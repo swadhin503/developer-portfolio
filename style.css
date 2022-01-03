@@ -7,7 +7,7 @@ h1{
 span{
     color:rgb(68, 189, 52);
 }
-section{
+.flexible-item{
     display:flex;
     margin-bottom: 100px;
 }
@@ -16,7 +16,7 @@ section{
     padding-left:5%;
 }
 .tawhid img{
-    width:75%;
+    width:70%;
 }
 .link-button{
     text-decoration:none;
@@ -26,7 +26,11 @@ section{
     color:white;
     font-weight: 700;
 }
-#first-section{
+.first-section{
     background-image:url(photos/pexels-photo-747964.jpeg);
     background-repeat:no-repeat;
+}
+.equal{
+    text-align:justify;
+    padding:5%;
 }
